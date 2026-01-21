@@ -129,6 +129,35 @@ Automatically triggers when you request UI/UX work:
 
 ---
 
+#### 6. Blog to X (X Article Publisher)
+
+**Purpose**: Publish Markdown articles to X (Twitter) Articles editor with proper formatting and automatic image handling.
+
+**Features**:
+- Automatic Markdown to rich text conversion
+- Cover image upload
+- Precise content image positioning using block indices
+- Formatting preservation (H2, bold, links, lists, code blocks)
+- Browser automation via Playwright MCP
+
+**Usage**:
+```
+"Publish /path/to/article.md to X"
+"Post my blog article to Twitter Articles"
+"Publish this markdown file to X Premium"
+```
+
+**Triggers**: publish to X, post article to Twitter, X article, X Premium article publishing
+
+**Requirements**:
+- Playwright MCP for browser automation
+- Python 3.9+
+- macOS: `pip install Pillow pyobjc-framework-Cocoa`
+- Windows: `pip install Pillow pywin32 clip-util`
+- X Premium Plus subscription
+
+---
+
 ### Installation
 
 1. Clone this repository to your local machine
@@ -263,6 +292,35 @@ Claude Code skills集合，用于提高开发效率。这些技能涵盖 UI/UX �
 **触发关键词**: copy launch screen、sync launch images、update iOS launch screen、复制启动屏幕、同步启动图片
 
 **依赖**: Android 和 iOS 项目结构
+
+---
+
+#### 6. Blog to X - X 文章发布器
+
+**功能**: 将 Markdown 文章发布到 X（Twitter）文章编辑器，自动处理格式和图片。
+
+**特性**:
+- 自动 Markdown 到富文本转换
+- 封面图上传
+- 使用块索引精确定位内容图片
+- 保留格式（H2、加粗、链接、列表、代码块）
+- 通过 Playwright MCP 进行浏览器自动化
+
+**使用方式**:
+```
+"发布 /path/to/article.md 到 X"
+"将我的博客文章发布到 Twitter Articles"
+"发布这个 Markdown 文件到 X Premium"
+```
+
+**触发关键词**: 发布到 X、发布文章到 Twitter、X 文章、X Premium 文章发布
+
+**依赖**:
+- Playwright MCP（用于浏览器自动化）
+- Python 3.9+
+- macOS: `pip install Pillow pyobjc-framework-Cocoa`
+- Windows: `pip install Pillow pywin32 clip-util`
+- X Premium Plus 订阅
 
 ---
 
