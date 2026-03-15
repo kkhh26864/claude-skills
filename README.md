@@ -158,6 +158,32 @@ Automatically triggers when you request UI/UX work:
 
 ---
 
+#### 7. Video Publish Workflow
+
+**Purpose**: Three-phase workflow for short video creation and multi-platform publishing to YouTube, 抖音 (Douyin), and TikTok.
+
+**Features**:
+- Phase 0: Platform selection — recommends which platforms to publish to based on content type
+- Phase 1: Editing guidance — CapCut editing suggestions (structure, pacing, titles, captions, music)
+- Phase 2: Automated publishing — Playwright browser automation to publish to YouTube Shorts, 抖音, and TikTok
+- Smart platform decision table (travel, cycling, tech content, etc.)
+- YouTube channel routing (lifestyle vs. tech channel)
+
+**Usage**:
+```
+"Which platforms should I publish this Southeast Asia travel video to?"
+"I have raw footage of a cycling trip, how should I edit it?"
+"Publish /path/to/video.mp4 to all platforms"
+```
+
+**Triggers**: which platform to publish video, editing guidance for short video, publish video to YouTube/抖音/TikTok
+
+**Requirements**:
+- Playwright MCP for browser automation
+- Logged-in sessions for TikTok, YouTube Studio, and 抖音
+
+---
+
 ### Installation
 
 1. Clone this repository to your local machine
@@ -321,6 +347,32 @@ Claude Code skills集合，用于提高开发效率。这些技能涵盖 UI/UX �
 - macOS: `pip install Pillow pyobjc-framework-Cocoa`
 - Windows: `pip install Pillow pywin32 clip-util`
 - X Premium Plus 订阅
+
+---
+
+#### 7. Video Publish Workflow - 短视频发布工作流
+
+**功能**: 三阶段短视频创作与多平台发布工作流，支持 YouTube、抖音和 TikTok。
+
+**特性**:
+- Phase 0: 平台选择 — 根据内容类型推荐发布哪些平台
+- Phase 1: 剪辑建议 — CapCut 剪辑建议（结构、节奏、标题、字幕、音乐）
+- Phase 2: 自动发布 — 通过 Playwright 浏览器自动化发布到 YouTube Shorts、抖音和 TikTok
+- 智能平台决策表（旅行、骑行、技术内容等）
+- YouTube 频道路由（生活频道 vs 技术频道）
+
+**使用方式**:
+```
+"这个东南亚旅行视频应该发哪些平台？"
+"我有一段骑行的原始素材，怎么剪辑？"
+"发布 /path/to/video.mp4 到各平台"
+```
+
+**触发关键词**: 发布视频到哪个平台、短视频剪辑建议、发布视频到 YouTube/抖音/TikTok
+
+**依赖**:
+- Playwright MCP（用于浏览器自动化）
+- TikTok、YouTube Studio 和抖音的已登录会话
 
 ---
 
